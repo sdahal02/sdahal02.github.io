@@ -1,0 +1,98 @@
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+  html{
+      font-size: 11px;
+  }
+  body{
+        background: #bccfe6;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
+  }
+  .container{
+      max-width: 700px;
+      margin: 0 auto;
+      padding-left: 10px;
+      text-align: left;   
+      box-shadow: 3px 3px rgb(101, 69, 247), -1em 0 .4em rgba(128, 128, 0, 0.438);   
+
+  }
+  h1{
+      color: rgb(59, 65, 145);
+      font-size: 23pt;
+      font-weight: 700;      
+      border-bottom: 1px solid #626d7a;
+      font-family:Arial, Helvetica, sans-serif ;
+  }
+
+  h2{
+      padding-top: 15px;
+      padding-bottom: 5px;
+      color:rgba(71, 19, 139, 0.884);
+      font-size: larger;
+      font-weight: 800;      
+  }
+
+  b, strong {
+    color: rgb(247, 122, 105);
+    
+    }
+  .intro{
+      padding-top: 15px;
+  }
+ 
+  #class-list{
+      padding-left: 50px;
+      font-size: medium;
+      color: rgba(8, 8, 70, 0.87);
+  }
+ 
+  #movies-list{
+      padding-left: 50px;
+      font-size: medium;
+      
+  }
+  dt {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #f77c43;
+   
+  }
+  dd {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 11pt;
+    font-style: italic;
+  }
+  .neighbor{
+      padding-top: 10px;
+    
+    }
+
+  img {
+    width: 35%;
+  }
+  .footer{
+    margin: auto;
+    width: 40%;  
+   padding-top: 20px; 
+  }
+  
+  /*Implementation of pseudo class*/
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { border-bottom:1px solid; }
+  a:active { text-decoration: none; }
+
+/*Implementation of pseudo element*/
+  p::first-letter {
+      font-size: xx-large;
+  }
+
+
+  
+
+  
