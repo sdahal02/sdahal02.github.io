@@ -10,6 +10,9 @@ body{
     background-image: url("./images/bannerbg.png");
     text-align: center;
 }
+.clear{
+    clear: both;
+}
 
 .banner-bg.banner-center{
     height: 50px; width: 795px; margin: auto;   
@@ -33,8 +36,9 @@ h1{
 .container div.rotton h2 img{
     height: 83px; border-radius: 20px 0 0 0; float: left;
 }
-.critic-reviews{
+.reviews{
     padding: 1%;
+    background: none;
 }
 .review-left, .review-right{
     width: 47%; margin: 1.5%; float: left;
