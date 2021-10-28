@@ -1,0 +1,16 @@
+label{
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    
+    width: 800px;  margin: auto;    
+}
+fieldset{
+    background-color: #bccfe6;
+    border-radius: 20px;
+}
+h1{
+    color: rgb(28, 30, 139);
+    text-shadow: 2px 2px rgb(245, 246, 250);
+}
