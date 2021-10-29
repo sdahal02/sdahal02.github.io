@@ -1,0 +1,65 @@
+
+  .header{
+      padding-bottom: 50px;
+  }
+legend{
+    background-color: rgb(244, 245, 248);
+    font-size: large;
+    box-shadow: 2px 2px rgb(70, 68, 68);    
+}
+label{
+    font-size: medium;
+    font-weight: bold;    
+    display: inline-block;
+    width:130px;
+    text-align: left;
+}
+.container{    
+    width: 500px;  margin: auto;
+    margin-top: 50px; 
+    clear: both;   
+}
+
+fieldset{
+    background-color: #E0E1FF;
+    box-shadow: 2px 2px #5e5e6d;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+        
+}
+button{
+    background-color: #FFA1AB;
+    font-size: medium;
+    font-weight: bold;
+}
+.radio{
+  margin-right: 0;
+}
+.footer{
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+}
+img {
+    vertical-align:middle;
+}
+.back-link{
+     color: red;
+     padding-bottom: 40px;
+     vertical-align:middle;
+}
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+  }
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  
+ 
+
+
